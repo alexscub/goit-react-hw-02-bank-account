@@ -1,0 +1,12 @@
+.balance {
+  padding: 36px 6px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: #5c6975;
+}
+.balanceElement {
+  padding: 16px;
+  font-size: 16px;
+}
