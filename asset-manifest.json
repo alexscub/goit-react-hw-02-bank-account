@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-02-bank-account/static/css/main.5f6bf60a.chunk.css",
-    "main.js": "/goit-react-hw-02-bank-account/static/js/main.b65d1dde.chunk.js",
-    "main.js.map": "/goit-react-hw-02-bank-account/static/js/main.b65d1dde.chunk.js.map",
+    "main.css": "/goit-react-hw-02-bank-account/static/css/main.10e884db.chunk.css",
+    "main.js": "/goit-react-hw-02-bank-account/static/js/main.2fa0a31c.chunk.js",
+    "main.js.map": "/goit-react-hw-02-bank-account/static/js/main.2fa0a31c.chunk.js.map",
     "runtime-main.js": "/goit-react-hw-02-bank-account/static/js/runtime-main.fd3cc8e8.js",
     "runtime-main.js.map": "/goit-react-hw-02-bank-account/static/js/runtime-main.fd3cc8e8.js.map",
     "static/css/2.5dbdccff.chunk.css": "/goit-react-hw-02-bank-account/static/css/2.5dbdccff.chunk.css",
-    "static/js/2.737600af.chunk.js": "/goit-react-hw-02-bank-account/static/js/2.737600af.chunk.js",
-    "static/js/2.737600af.chunk.js.map": "/goit-react-hw-02-bank-account/static/js/2.737600af.chunk.js.map",
+    "static/js/2.1f1cbe4d.chunk.js": "/goit-react-hw-02-bank-account/static/js/2.1f1cbe4d.chunk.js",
+    "static/js/2.1f1cbe4d.chunk.js.map": "/goit-react-hw-02-bank-account/static/js/2.1f1cbe4d.chunk.js.map",
     "index.html": "/goit-react-hw-02-bank-account/index.html",
-    "precache-manifest.4639a6b1119fc4f081a51beec4d7e0c2.js": "/goit-react-hw-02-bank-account/precache-manifest.4639a6b1119fc4f081a51beec4d7e0c2.js",
+    "precache-manifest.e50c4cdce8b2253056adc99d630ef091.js": "/goit-react-hw-02-bank-account/precache-manifest.e50c4cdce8b2253056adc99d630ef091.js",
     "service-worker.js": "/goit-react-hw-02-bank-account/service-worker.js",
     "static/css/2.5dbdccff.chunk.css.map": "/goit-react-hw-02-bank-account/static/css/2.5dbdccff.chunk.css.map",
-    "static/css/main.5f6bf60a.chunk.css.map": "/goit-react-hw-02-bank-account/static/css/main.5f6bf60a.chunk.css.map"
+    "static/css/main.10e884db.chunk.css.map": "/goit-react-hw-02-bank-account/static/css/main.10e884db.chunk.css.map"
   }
 }
