@@ -19,15 +19,10 @@ class Controls extends Component {
 
   render() {
     const { amount } = this.state;
-    const { onDeposit, onWithdraw } = this.props;
-    const handleOnDeposit = () => {
-      onDeposit(+amount);
-      this.setState({
-        ...this.initialState,
-      });
-    };
-    const handleOnWithdraw = () => {
-      onWithdraw(+amount);
+    const { handleTransaction } = this.props;
+    const handleclick = e => {
+      const transaction = e.target.name;
+      handleTransaction(transaction, +amount);
       this.setState({
         ...this.initialState,
       });
@@ -45,14 +40,16 @@ class Controls extends Component {
           <button
             className={styles.button}
             type="button"
-            onClick={handleOnDeposit}
+            onClick={handleclick}
+            name="Deposit"
           >
             Deposit
           </button>
           <button
             className={styles.button}
             type="button"
-            onClick={handleOnWithdraw}
+            onClick={handleclick}
+            name="Withdraw"
           >
             Withdraw
           </button>
@@ -64,6 +61,5 @@ class Controls extends Component {
 
 export default Controls;
 Controls.propTypes = {
-  onDeposit: PropTypes.func.isRequired,
-  onWithdraw: PropTypes.func.isRequired,
+  handleTransaction: PropTypes.func.isRequired,
 };
